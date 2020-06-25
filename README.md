@@ -1,45 +1,46 @@
 # PowL---Pet-s-own-bowL
 Graduation project
 # Notice
-At first, we were tried to make it with raspberry pi.
-But we couldn't do it for some reason.
-The python program will replace the raspberry pi to show flow of our project.
-We hope that you will take that into consideration.
+At first, we were tried to make it with raspberry pi.&nbsp;
+But we couldn't do it for some reason.&nbsp;
+The python program will replace the raspberry pi to show flow of our project.&nbsp;
+We hope that you will take that into consideration.&nbsp;
 Thanks
 # Requirements
 
-tensorflow = 1.13.1
-\nopencv-python = 4.1.2
-\nPIL = 7.1.2
-\nkeras = 2.2.4
-\ntqdm = 4.46.1
-\nbeautifulsoup4 = 4.9.1
-\nselenium = 3.141.0
-\ntensorboard
+tensorflow = 1.13.1&nbsp;
+opencv-python = 4.1.2&nbsp;
+PIL = 7.1.2&nbsp;
+keras = 2.2.4&nbsp;
+tqdm = 4.46.1&nbsp;
+beautifulsoup4 = 4.9.1&nbsp;
+selenium = 3.141.0&nbsp;
+tensorboard&nbsp;
 
 # Getting started
 
 ## Installation
 
-Clone the git repository. We will call the cloned repository as ***$home***
+Clone the git repository. &nbsp;
+We will call the cloned repository as ***$home***
 
     git clone https://github.com/seokhyeonSong/PowL-Pets_own_bowL.git
     cd PowL-Pets_own_bowL.git
 
 ## Crawling (optional)
 **This can be skipped**
-To make dataset more rich, you can crawl some data from google by this code
-Crawled data will be at /dog_images/each_folder
-You have to distinguish some garbage images from dataset
-num_images are used to set the number of crawling image
-default is 50
+To make dataset more rich, you can crawl some data from google by this code&nbsp;
+Crawled data will be at /dog_images/each_folder&nbsp;
+You have to distinguish some garbage images from dataset&nbsp;
+num_images are used to set the number of crawling image&nbsp;
+default is 50&nbsp;
 
     python crawling.py [--num_images number_of_images]
 
 
 ## Retraining (optional)
-This can be skipped
-to retrain the features of dogs, you can use this code
+This can be skipped&nbsp;
+to retrain the features of dogs, you can use this code&nbsp;
 
     python retraining.py --image_dir /dog_images
 
@@ -47,8 +48,8 @@ This code is came from [here](https://github.com/AthulDilip/Tensorflow-Dog-Breed
 
 ## Run
 
-You have to download our application to register 
-Or you can just enter your dog's breed as insert value with args
+You have to download our application to register&nbsp; 
+Or you can just enter your dog's breed as insert value with args&nbsp;
 |Dog's breed|insert value|Dog's breed|insert value|
 |--|--|--|--|
 |Beagle|beagle|Border Collie|border collie|
@@ -62,8 +63,8 @@ Or you can just enter your dog's breed as insert value with args
 
     python flow.py [--breed breed_insert_value]
 
-You can register your dog with application
-Your phone and notebook should be in same Wi-Fi
+You can register your dog with application&nbsp;
+Your phone and notebook should be in same Wi-Fi&nbsp;
 
 > To register your dog
 
