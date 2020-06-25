@@ -17,6 +17,12 @@ beautifulsoup4 = 4.9.1<br>
 selenium = 3.141.0<br>
 tensorboard<br>
 
+# Datasets
+Basic datasets are from [here](http://vision.stanford.edu/aditya86/ImageNetDogs/)<br>
+And Added some crawled data<br>
+There are 16 kinds of species<br>
+And 6160 pictures in total<br>
+
 # Getting started
 
 ## Installation
