@@ -100,3 +100,11 @@ You can see the training and validation result with tensorboard
 for train result :  `tensorboard --log_dir=$home/../tmp/retrain_logs/train/`<br>
  for validation result : `tensorboard --log_dir=$home/../tmp/retrain_logs/validation/`
 3. You can see the result at [here](http://localhost:6006 )
+
+# Citation
+    author : @AthulDilip, @sabeersulaiman
+    title : Tensorflow Dog Breed Classifier
+    publisher : {GitHub}
+    journal : {GitHub repository}
+    howpublished : https://github.com/AthulDilip/Tensorflow-Dog-Breed-Classifier#tensorflow-dog-breed-classifier
+    
