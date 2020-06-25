@@ -1,7 +1,7 @@
 # PowL---Pet-s-own-bowL
 Graduation project
 # Notice
-At first, we were tried to make it with raspberry pi.&nbsp;
+At first, we were tried to make it with raspberry pi.<br>
 But we couldn't do it for some reason.&nbsp;
 The python program will replace the raspberry pi to show flow of our project.&nbsp;
 We hope that you will take that into consideration.&nbsp;
