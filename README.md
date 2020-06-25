@@ -9,13 +9,13 @@ Thanks
 # Requirements
 
 tensorflow = 1.13.1
-opencv-python = 4.1.2
-PIL = 7.1.2
-keras = 2.2.4
-tqdm = 4.46.1
-beautifulsoup4 = 4.9.1
-selenium = 3.141.0
-tensorboard
+\nopencv-python = 4.1.2
+\nPIL = 7.1.2
+\nkeras = 2.2.4
+\ntqdm = 4.46.1
+\nbeautifulsoup4 = 4.9.1
+\nselenium = 3.141.0
+\ntensorboard
 
 # Getting started
 
