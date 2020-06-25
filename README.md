@@ -91,6 +91,6 @@ Run
 You can see the training and validation result with tensorboard
 1. Enter [here](http://localhost:6006 )
 2. Run this code
-for train result :  `tensorboard --log_dir=$home/../tmp/retrain_logs/train`<br>
- for validation result : `tensorboard --log_dir=$home/../tmp/retrain_logs/validation`
+for train result :  `tensorboard --log_dir=$home/../tmp/retrain_logs/train/`<br>
+ for validation result : `tensorboard --log_dir=$home/../tmp/retrain_logs/validation/`
 3. You can see the result at [here](http://localhost:6006 )
