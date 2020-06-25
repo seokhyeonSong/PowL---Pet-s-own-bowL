@@ -33,7 +33,7 @@ To make dataset more rich, you can crawl some data from google by this code<br>
 Crawled data will be at /dog_images/each_folder<br>
 You have to distinguish some garbage images from dataset<br>
 num_images are used to set the number of crawling image<br>
-default is 50&nbsp;
+default is 50<br>
 
     python crawling.py [--num_images number_of_images]
 
@@ -48,8 +48,8 @@ This code is came from [here](https://github.com/AthulDilip/Tensorflow-Dog-Breed
 
 ## Run
 
-You have to download our application to register&nbsp; 
-Or you can just enter your dog's breed as insert value with args&nbsp;
+You have to download our application to register<br>
+Or you can just enter your dog's breed as insert value with args<br>
 |Dog's breed|insert value|Dog's breed|insert value|
 |--|--|--|--|
 |Beagle|beagle|Border Collie|border collie|
@@ -91,7 +91,7 @@ Run
 You can see the training and validation result with tensorboard
 1. Enter [here](http://localhost:6006 )
 2. Run this code
-for train result :  `tensorboard --log_dir=$home/../tmp/retrain_logs/train` 
- for validation result : 
+for train result :  `tensorboard --log_dir=$home/../tmp/retrain_logs/train` <br>
+ for validation result : <br>
  `tensorboard --log_dir=$home/../tmp/retrain_logs/validation`
 3. You can see the result at [here](http://localhost:6006 )
