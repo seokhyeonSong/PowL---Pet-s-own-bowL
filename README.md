@@ -40,7 +40,7 @@ default is 50<br>
 
 ## Retraining (optional)
 This can be skipped<br>
-to retrain the features of dogs, you can use this code<br>
+To retrain the features of dogs, you can use this code<br>
 
     python retraining.py --image_dir /dog_images
 
