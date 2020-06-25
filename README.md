@@ -1,4 +1,4 @@
-# PowL---Pet-s-own-bowL
+# PowL-Pets-own-bowL
 Graduation project
 # Notice
 At first, we were tried to make it with raspberry pi.<br>
