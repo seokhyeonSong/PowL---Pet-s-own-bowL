@@ -28,7 +28,7 @@ We will call the cloned repository as ***$home***<br>
     cd PowL-Pets_own_bowL.git
 
 ## Crawling (optional)
-**This can be skipped**
+**This can be skipped**<br>
 To make dataset more rich, you can crawl some data from google by this code<br>
 Crawled data will be at /dog_images/each_folder<br>
 You have to distinguish some garbage images from dataset<br>
@@ -39,7 +39,7 @@ default is 50<br>
 
 
 ## Retraining (optional)
-This can be skipped<br>
+**This can be skipped**<br>
 To retrain the features of dogs, you can use this code<br>
 
     python retraining.py --image_dir /dog_images
