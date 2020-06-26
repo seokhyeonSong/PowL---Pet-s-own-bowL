@@ -1,2 +1,3 @@
-#notice
-please upzip these zip files at here to used pretrained bottlenect files
+
+# Notice
+Upzip these files to pretrained bottleneck files
