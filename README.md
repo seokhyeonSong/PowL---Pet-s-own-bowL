@@ -12,6 +12,7 @@ Thanks
 
 # Requirements
 
+```
 tensorflow = 1.13.1<br>
 opencv-python = 4.1.2<br>
 PIL = 7.1.2<br>
@@ -20,6 +21,7 @@ tqdm = 4.46.1<br>
 beautifulsoup4 = 4.9.1<br>
 selenium = 3.141.0<br>
 tensorboard<br>
+```
 
 # Datasets
 Basic datasets are from [here](http://vision.stanford.edu/aditya86/ImageNetDogs/)<br>
