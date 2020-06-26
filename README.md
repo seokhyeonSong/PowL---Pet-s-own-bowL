@@ -28,7 +28,7 @@ And 6160 pictures in total<br>
 ## Installation
 
 Clone the git repository. <br>
-We will call the cloned repository as ***$home***<br>
+We will call the cloned repository/python/Tensorflow-Dog-Breed-Classifier/ as ***$home***<br>
 
     git clone https://github.com/seokhyeonSong/PowL-Pets_own_bowL.git
     cd PowL-Pets_own_bowL.git
