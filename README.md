@@ -12,8 +12,17 @@ You have to download python code at [here](https://drive.google.com/file/d/1HaZm
 save them at the same directory of this repository<br>
 
 ---
-you have to change your flow.py 's IP address code to your current pc's IP address<br>
+**Python**
+---
+You have to change your flow.py 's IP address code to your current pc's IP address<br>
 flow.py Line 12, HOST ="your PC ip address"
+
+**Android**
+---
+Also, you have to change your com.powl.graduation.ui.gallery.java and com.powl.graduation.enroll.java's IP address code to your current pc's IP address<br>
+com.powl.graduation.ui.gallery.java Line 64, String ip ="your PC ip address";
+com.powl.graduation.enroll.java Line 22, String ip="your PC ip address";
+
 
 # Presentation video
 [Youtube_video](https://youtu.be/JyCRdHj9BLg)
