@@ -6,6 +6,10 @@ But we couldn't do it for some reason.<br>
 The python program will replace the raspberry pi to show flow of our project.<br>
 We hope that you will take that into consideration.<br>
 Thanks
+
+# Presentation video
+[Youtube_video](https://youtu.be/JyCRdHj9BLg)
+
 # Requirements
 
 tensorflow = 1.13.1<br>
