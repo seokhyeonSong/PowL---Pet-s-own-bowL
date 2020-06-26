@@ -74,7 +74,7 @@ Your phone and notebook should be in same Wi-Fi<br>
 
 > To register your dog
 
-1. run flow.py and select register mode
+1. run flow.py and select server on mode
 2. send your dog's picture by album or take a picutre
 3. You will receive your dog's breed prediction from server
 you can choose your dog's breed
