@@ -7,6 +7,10 @@ The python program will replace the raspberry pi to show flow of our project.<br
 We hope that you will take that into consideration.<br>
 Thanks
 
+-
+You have to download python code at [here]()<br>
+save them at the same directory of this repository<br>
+
 # Presentation video
 [Youtube_video](https://youtu.be/JyCRdHj9BLg)
 
