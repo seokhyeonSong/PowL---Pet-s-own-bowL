@@ -10,6 +10,9 @@ Thanks
 ---
 You have to download python code at [here](https://drive.google.com/file/d/1HaZm8umBth1hv2_463ssejWnQnLsyWlW/view?usp=sharing)<br>
 save them at the same directory of this repository<br>
+---
+you have to change your flow.py 's IP address code to your current pc's IP address<br>
+flow.py Line 12, HOST ="your PC ip address"
 
 # Presentation video
 [Youtube_video](https://youtu.be/JyCRdHj9BLg)
@@ -17,14 +20,14 @@ save them at the same directory of this repository<br>
 # Requirements
 
 ```
-tensorflow = 1.13.1<br>
-opencv-python = 4.1.2<br>
-PIL = 7.1.2<br>
-keras = 2.2.4<br>
-tqdm = 4.46.1<br>
-beautifulsoup4 = 4.9.1<br>
-selenium = 3.141.0<br>
-tensorboard<br>
+tensorflow = 1.13.1
+opencv-python = 4.1.2
+PIL = 7.1.2
+keras = 2.2.4
+tqdm = 4.46.1
+beautifulsoup4 = 4.9.1
+selenium = 3.141.0
+tensorboard
 ```
 
 # Datasets
