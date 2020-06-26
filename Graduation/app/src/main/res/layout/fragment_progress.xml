@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    tools:context=".ui.progress.ProgressFragment">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="물 마신 지..."
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/font1"
+        android:id="@+id/text1"/>
+
+    <com.skydoves.progressview.ProgressView
+        android:id="@+id/progressView1"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/text1"
+        app:progressView_autoAnimate="true"
+        app:progressView_colorBackground="@color/white"
+        app:progressView_colorProgress="@color/color_midnight_blue"
+        app:progressView_labelColorInner="@color/white"
+        app:progressView_labelColorOuter="@color/black"
+        app:progressView_labelSize="13sp"
+        app:progressView_labelSpace="10dp"
+        app:progressView_labelText="5시간"
+        app:progressView_labelTypeface="bold"
+        app:progressView_max="100"
+        app:progressView_min="0"
+        app:progressView_padding="1dp"
+        app:progressView_progress="80"
+        app:progressView_radius="12dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="밥 먹은 지..."
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/font1"
+        android:id="@+id/text2"
+        android:layout_below="@+id/progressView1"/>
+
+
+    <com.skydoves.progressview.ProgressView
+        android:id="@+id/progressView2"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_below="@+id/text2"
+        app:progressView_autoAnimate="true"
+        app:progressView_colorBackground="@color/white"
+        app:progressView_colorProgress="@color/color_midnight_blue"
+        app:progressView_labelColorInner="@color/white"
+        app:progressView_labelColorOuter="@color/black"
+        app:progressView_labelSize="13sp"
+        app:progressView_labelSpace="10dp"
+        app:progressView_labelText="3시간"
+        app:progressView_labelTypeface="bold"
+        app:progressView_max="100"
+        app:progressView_min="0"
+        app:progressView_padding="1dp"
+        app:progressView_progress="30"
+        app:progressView_radius="12dp" />
+
+</RelativeLayout>

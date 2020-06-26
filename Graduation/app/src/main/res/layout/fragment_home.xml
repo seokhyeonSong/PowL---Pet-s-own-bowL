@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbg"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/ex1"
+            app:expandable_secondLayout="@layout/activity_semi"
+            app:expandable_animation="bounce"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/ic_arrow_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_margin="14dp"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandable"
+            android:layout_marginTop="20dp"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/ex2"
+            app:expandable_secondLayout="@layout/activity_semi2"
+            app:expandable_animation="bounce"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/ic_arrow_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_margin="14dp"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandable2"
+            android:layout_marginTop="20dp"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/ex3"
+            app:expandable_secondLayout="@layout/activity_semi3"
+            app:expandable_animation="bounce"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/ic_arrow_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_margin="14dp"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandable3"
+            android:layout_marginTop="20dp"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/ex4"
+            app:expandable_secondLayout="@layout/activity_semi4"
+            app:expandable_animation="bounce"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/ic_arrow_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_margin="14dp"
+            app:expandable_spinner_size="32dp"
+            />
+
+        <com.skydoves.expandablelayout.ExpandableLayout
+            android:id="@+id/expandable5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/expandable4"
+            android:layout_marginTop="20dp"
+            app:expandable_duration="300"
+            app:expandable_isExpanded="false"
+            app:expandable_parentLayout="@layout/ex5"
+            app:expandable_secondLayout="@layout/activity_semi5"
+            app:expandable_animation="bounce"
+            app:expandable_showSpinner="true"
+            app:expandable_spinner="@drawable/ic_arrow_down"
+            app:expandable_spinner_animate="true"
+            app:expandable_spinner_margin="14dp"
+            app:expandable_spinner_size="32dp"
+            />
+    </RelativeLayout>
+
+
+
+</ScrollView>

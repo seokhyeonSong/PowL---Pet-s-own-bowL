@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/font_color"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/survey"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="@font/font3"
+            android:gravity="center"
+            android:lines="2"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/font_color"
+            android:textSize="18dp"
+            android:text="해당 종류 중에 맞는 것을 선택해주세요"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/radGroup"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/survey"
+            android:layout_marginTop="20dp">
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rad1"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rad2"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rad3"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rad4"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rad5"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="30dp"
+                />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/ok_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/radGroup"
+            android:gravity="center"
+            android:layout_alignLeft="@+id/radGroup"
+            android:background="#ffffff"
+            android:fontFamily="@font/font3"
+            android:text="확인"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/font_color"
+            style="?android:attr/borderlessButtonStyle"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancel_button"
+            android:layout_below="@+id/radGroup"
+            android:background="#ffffff"
+            android:gravity="center"
+            android:layout_alignRight="@+id/radGroup"
+            android:fontFamily="@font/font3"
+            android:text="취소"
+            android:textSize="15dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/font_color"
+            style="?android:attr/borderlessButtonStyle"
+            />
+    </RelativeLayout>
+</LinearLayout>
