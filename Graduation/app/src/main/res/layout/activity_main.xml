@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:clickable="true"
+   >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainbg2"
+        android:id="@+id/wholeImage"></ImageView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Powl"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="top|center"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        android:layout_marginTop="100dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="(Pet's own bowl)"
+        android:fontFamily="@font/font2"
+        android:layout_gravity="top|center"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="150dp"></TextView>
+
+    <com.skydoves.elasticviews.ElasticButton
+        android:id="@+id/elasticbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:text="시작하기"
+        android:textColor="@android:color/white"
+        android:textSize="17sp"
+        android:background="#00ff0000"
+        android:fontFamily="@font/font1"
+        app:button_duration="250"
+        app:button_scale="0.87"
+        android:layout_gravity="bottom|center"/>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

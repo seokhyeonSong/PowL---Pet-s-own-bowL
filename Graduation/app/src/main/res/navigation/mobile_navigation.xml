@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.powl.graduation.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.powl.graduation.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_now"
+        android:name="com.powl.graduation.ui.now.NowFragment"
+        android:label="@string/menu_now"
+        tools:layout="@layout/fragment_now" />
+
+    <fragment
+        android:id="@+id/nav_remote"
+        android:name="com.powl.graduation.ui.remote.RemoteFragment"
+        android:label="@string/menu_remote"
+        tools:layout="@layout/fragment_remote"/>
+
+    <fragment
+        android:id="@+id/nav_progress"
+        android:name="com.powl.graduation.ui.progress.ProgressFragment"
+        android:label="@string/menu_progress"
+        tools:layout="@layout/fragment_progress"/>
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.powl.graduation.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+</navigation>
