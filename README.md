@@ -78,6 +78,7 @@ Your phone and notebook should be in same Wi-Fi<br>
 2. send your dog's picture by album or take a picutre
 3. You will receive your dog's breed prediction from server
 you can choose your dog's breed
+4. Then your registered dog will be added to breed.txt
 
 > To run PowL
 1. Set your labtop front of dog's bowl
